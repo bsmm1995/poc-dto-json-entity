@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@Entity(name = "PERSON")
+@Entity(name = "FORM")
 @NoArgsConstructor
 public class FormEntity implements Serializable {
     @Id
