@@ -11,7 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/persons")
+@RequestMapping("/forms")
 @RequiredArgsConstructor
 public class FormController {
     private final FormService formService;
