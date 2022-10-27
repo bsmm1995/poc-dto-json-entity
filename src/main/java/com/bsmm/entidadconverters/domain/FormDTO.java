@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 @NoArgsConstructor
@@ -15,5 +16,8 @@ public class FormDTO implements Serializable {
     Long id;
     @NotBlank
     String names;
+    @NotBlank
+    String version;
+    @NotNull
     DetailDTO detail;
 }

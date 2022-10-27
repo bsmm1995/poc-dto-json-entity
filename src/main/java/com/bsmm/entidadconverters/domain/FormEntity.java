@@ -24,6 +24,9 @@ public class FormEntity implements Serializable {
     @Column(nullable = false)
     String names;
 
+    @Column(nullable = false)
+    String version;
+
     @Convert(converter = FormConverter.class)
     @Column(name = "FIELD_JSON", columnDefinition = "TEXT")
     DetailDTO detail;
